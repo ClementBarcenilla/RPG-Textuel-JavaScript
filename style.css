@@ -70,8 +70,6 @@ img {
   .interface a:hover div {
     background-color: #3c1d3d73;
     border-radius: 20px;
-
-
   }
   
   .interface h3 {
@@ -105,18 +103,7 @@ img {
     font-size: 14px;
     font-family: arial;
     color: #333;
-  }
-  
-  .actions a:nth-of-type(1) {
     background-color: #79e64786;
-  }
-  
-  .actions a:nth-of-type(2) {
-    background-color: #79e647;
-  }
-  
-  .actions a:nth-of-type(3) {
-    background-color: #6de647;
   }
   
   .actions a:hover {
@@ -131,47 +118,3 @@ img {
     font-family: arial;
     visibility: hidden;
   }
-  
-  .enemy {
-    padding: 0;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #333;
-  }
-  
-  .enemy a {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  
-  .enemy img {
-    width: 120px;
-    height: 120px;
-  }
-  
-  .enemy div {
-    width: 220px;
-    padding: 0 10px 0 20px;
-    background-color: #211510;
-  }
-  
-  .enemy a:hover div {
-    background-color: #3c1d3d;
-  }
-  
-  .enemy h3 {
-    font-family: 'Acme', sans-serif;
-    font-size: 22px;
-    color: #f83a00;
-    padding: 12px 0 4px;
-  }
-  
-  .enemy p {
-    font-family: arial;
-    font-size: 12px;
-    color: #d5c8af;
-    line-height: 20px;
-  }
-  
