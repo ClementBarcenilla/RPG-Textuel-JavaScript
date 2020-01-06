@@ -63,7 +63,7 @@ const textNodes = [
   },
   {
     id: 2,
-    text: "Vous continuer sur ce qui semble être un chemin jusqu'à rencontrer un vieille homme, ce dernier vous propose de faire un échange pour 10 pièces d'or.",
+    text: "Vous continuer sur ce qui semble être un chemin jusqu'à rencontrer un vieil homme, ce dernier vous propose de faire un échange pour 10 pièces d'or.",
     options: [
       {
         text: 'Echanger la corde.',
@@ -85,7 +85,7 @@ const textNodes = [
   },
   {
     id: 3,
-    text: "Malgrè tout, le vieille homme vous indique que si vous souhaitez passer la nuit au chaud, il y une auberge non loin d'ici mais il faut cependant sortir du chemin sur lequel vous êtes. Après avoir continuer votre route pendant 2 heures, la nuit va bientôt tomber et vous commencer à être fatigué. Vous commencez donc à chercher un endroit où dormir jusqu'à tomber sur une grotte. Cependant vous vous rappelez que 100 mètres plus tôt vous aviez passé un grand Chêne que vous pourriez essayer d'esclader pour y dormir.",
+    text: "Malgrè tout, le vieil homme vous indique que si vous souhaitez passer la nuit au chaud, il y une auberge non loin d'ici mais il faut cependant sortir du chemin sur lequel vous êtes. Après avoir continuer votre route pendant 2 heures, la nuit va bientôt tomber et vous commencer à être fatigué. Vous commencez donc à chercher un endroit où dormir jusqu'à tomber sur une grotte. Cependant vous vous rappelez que 100 mètres plus tôt vous aviez passé un grand Chêne que vous pourriez essayer d'esclader pour y dormir.",
     options: [
       {
         text: 'Dormir dans la grotte.',
@@ -96,7 +96,7 @@ const textNodes = [
         nextText: 9
       },
       {
-        text: "Suivre le conseil du vieille homme.",
+        text: "Suivre le conseil du vieil homme.",
         nextText: 66
       }
     ]
