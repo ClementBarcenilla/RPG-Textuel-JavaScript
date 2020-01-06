@@ -1,0 +1,177 @@
+img {
+    width: 160px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  body {
+    background-color: #333;
+  }
+  
+  .header {
+    background-color: #333;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header p {
+    font-family: arial;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 4px;
+  }
+  
+  .header h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    color: #df741cf5;
+  }
+  
+  .interface {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #333;
+  }
+  
+  .interface a {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .interface img {
+    width: 160px;
+    height: 160px;
+    border-radius: 75px;
+  }
+  
+  .img-avatar {
+    width: 160px !important;
+    height: 160px !important;
+
+  }
+  
+  .interface div {
+    width: 220px;
+    padding: 0 10px 0 20px;
+    background-color: #333;
+  }
+  
+  .interface a:hover div {
+    background-color: #3c1d3d73;
+    border-radius: 20px;
+
+
+  }
+  
+  .interface h3 {
+    font-family: 'Acme', sans-serif;
+    font-size: 22px;
+    color: #df741cf5;
+    padding: 12px 0 4px;
+  }
+  
+  .interface p {
+    font-family: arial;
+    font-size: 12px;
+    color: #d5c8af;
+    line-height: 20px;
+  }
+  
+  .btn-prefight {
+    width: 100% !important;
+  }
+  
+  .actions {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .actions a {
+    width: 33.33%;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial;
+    color: #333;
+  }
+  
+  .actions a:nth-of-type(1) {
+    background-color: #79e64786;
+  }
+  
+  .actions a:nth-of-type(2) {
+    background-color: #79e647;
+  }
+  
+  .actions a:nth-of-type(3) {
+    background-color: #6de647;
+  }
+  
+  .actions a:hover {
+    opacity: 0.9;
+  }
+  
+  .arena {
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial;
+    visibility: hidden;
+  }
+  
+  .enemy {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #333;
+  }
+  
+  .enemy a {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .enemy img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .enemy div {
+    width: 220px;
+    padding: 0 10px 0 20px;
+    background-color: #211510;
+  }
+  
+  .enemy a:hover div {
+    background-color: #3c1d3d;
+  }
+  
+  .enemy h3 {
+    font-family: 'Acme', sans-serif;
+    font-size: 22px;
+    color: #f83a00;
+    padding: 12px 0 4px;
+  }
+  
+  .enemy p {
+    font-family: arial;
+    font-size: 12px;
+    color: #d5c8af;
+    line-height: 20px;
+  }
+  

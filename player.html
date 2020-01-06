@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Best RPG</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="javascript/gamemanager.js"></script>
+        <script src="javascript/player.js"></script>
+        <script src="javascript/enemy.js"></script>
+    </head>
+<body>
+    
+    <div class="header">
+        <h2>Bienvenue sur mon RPG Textuel</h2><br>
+        <p>Choisissez votre personnage:</p><br>
+        
+    </div>
+
+
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Nain')">
+            <img src="img/avatar-player/nain.png" alt="gimli">
+            <div>
+                <h3>Nains</h3>
+                <p>Les nains ont une santé et une force élevées mais ne sont pas rapide et ont une agilité basse.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Guerrier')">
+            <img src="img/avatar-player/guerrier.png" alt="aragorn">
+            <div>
+                <h3>Guerrier</h3>
+                <p>Les guerriers sont rapides et agiles mais ont une force et une santé réduites.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Mage')">
+            <img src="img/avatar-player/mage.png" alt="mage">
+            <div>
+                <h3>Mage</h3>
+                <p>Les mages ne disposent que d'une agilité haute et de mana ce qui leur permet d'utiliser la magie.</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Chasseur')">
+            <img src="img/avatar-player/chasseur.png" alt="legolas">
+            <div>
+                <h3>Chasseur</h3>
+                <p>Les chasseurs ont une santé, de l'agilité élevées et sont rapides, mais ils ne sont pas très fort.</p>
+            </div>
+        </a>
+    </div>
+
+
+    <div class="actions">
+
+    </div>
+
+
+    <div class="arena">
+
+    </div>
+
+
+  
+</body>
+</html>
